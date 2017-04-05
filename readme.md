@@ -7,9 +7,9 @@ Source code ini adalah pembahasan dari soal tersebut.
 
 ## Hal yang di dapat
 Hal-hal yang saya dapatkan:
-  1. Cara mengimport database berukuran > 2MB ke dalam database server lokal. Silahkan baca [cara import sql berukuran besar](https://github.com/satyakresna/catatan-penjelajahtekno/import-sql-besar.md)
+  1. Cara mengimport database berukuran > 2MB ke dalam database server lokal. Silahkan baca [cara import sql berukuran besar](https://github.com/satyakresna/catatan-penjelajahtekno/blob/master/import-sql-besar.md)
   2. Membuat paging untuk menghandle lebih dari 1000 rows (lebih tepatnya 210549 rows) agar tidak menyebabkan memory
-      exhausted.
+      exhausted. Silahkan baca [memory exhausted php](https://github.com/satyakresna/catatan-penjelajahtekno/blob/master/memory-exhausted.md)
   3. Membuat opsi filter dengan tujuan agar data bisa
   dicari sesuai dengan kebutuhan user.
 
