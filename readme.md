@@ -7,7 +7,7 @@ Source code ini adalah pembahasan dari soal tersebut.
 
 ## Hal yang di dapat
 Hal-hal yang saya dapatkan:
-  1. Cara mengimport database berukuran > 2MB ke dalam database server lokal.
+  1. Cara mengimport database berukuran > 2MB ke dalam database server lokal. Silahkan baca [cara import sql berukuran besar](https://github.com/satyakresna/catatan-penjelajahtekno/import-sql-besar.md)
   2. Membuat paging untuk menghandle lebih dari 1000 rows (lebih tepatnya 210549 rows) agar tidak menyebabkan memory
       exhausted.
   3. Membuat opsi filter dengan tujuan agar data bisa
@@ -36,3 +36,9 @@ Minimal anda telah belajar PHP, MySQL dan framework CodeIgniter 3.x
       a.`e-registrasi/application/controllers/Registrasi.php` untuk mempelajari system paging dan searching. <br>
       b.`e-registrasi/application/models/Registrasi_model.php` untuk mempelajari perintah mendapatkan data yang dibutuhkan di function `get_all` dan jumlah baris di function `total_record`. <br>
       c. `e-registrasi/application/views/registrasi/list.php` untuk mempelajari tampilan data yang ditampilkan di browser.
+
+## TO-DO
+  - [ ] Membuat filter untuk mencari nama Mahasiswa menggunakan text field.
+  - [ ] Sinkronisasi dengan framework Bootstrap agar tampil cantik.
+  - [ ] Membuat fitur cetak report total pembayaran per semester per  tahun per fakultas dan dikelompokkan sesuai dengan status_trx dilengkapi
+  dengan filter pencarian tahun, semster,status_trx dan fakultas
