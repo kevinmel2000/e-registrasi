@@ -42,3 +42,6 @@ Minimal anda telah belajar PHP, MySQL dan framework CodeIgniter 3.x
   - [ ] Sinkronisasi dengan framework Bootstrap agar tampil cantik.
   - [ ] Membuat fitur cetak report total pembayaran per semester per  tahun per fakultas dan dikelompokkan sesuai dengan status_trx dilengkapi
   dengan filter pencarian tahun, semster,status_trx dan fakultas
+
+  ## Sumber
+  [Tutorial membuat search pagination session di CodeIgniter](http://www.tutorial-webdesign.com/tutorial-membuat-search-pagination-session-di-codeigniter/)
